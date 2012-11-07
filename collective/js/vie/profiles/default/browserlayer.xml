@@ -1,6 +1,0 @@
-<layers>
-<!-- uncomment to activate
-    <layer name="collective.js.vie"
-           interface="collective.js.vie.interfaces.ILayer" />
--->
-</layers>
