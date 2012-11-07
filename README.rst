@@ -3,6 +3,8 @@ Introduction
 
 This addon register the VIE_ javascript into Plone resource registry.
 
+version: 2.0.0
+
 About VIE
 =========
 
