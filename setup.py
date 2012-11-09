@@ -11,7 +11,15 @@ setup(name='collective.js.vie',
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
+        "Environment :: Web Environment",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Operating System :: OS Independent",
+        "Framework :: Plone",
+        "Framework :: Plone :: 4.0",
+        "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.2",
         "Programming Language :: Python",
+        "Programming Language :: JavaScript",
         ],
       keywords='plone viejs',
       author='JeanMichel FRANCOIS aka toutpt',
@@ -24,6 +32,9 @@ setup(name='collective.js.vie',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.jquery',
+          'collective.js.backbone',
+          'collective.js.underscore',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
